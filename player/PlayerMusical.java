@@ -27,4 +27,8 @@ public class PlayerMusical {
     protected void proximaMusica() {
         // lógica para próxima música
     }
+
+    protected void musicaAnterior() {
+        // lógica para música anterior
+    }
 }

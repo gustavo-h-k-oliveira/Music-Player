@@ -20,6 +20,10 @@ public class Playlist {
         musicas.add(musica);
     }
 
+    public void removerMusica(Musica musica) {
+        musicas.remove(musica);
+    }
+
     public List<Musica> getMusicas() {
             return Collections.unmodifiableList(musicas);
     }
